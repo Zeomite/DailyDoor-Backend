@@ -10,8 +10,6 @@ const homeRouter = require("./routes/homeRouter");
 dotenv.config();
 
 app.use(bodyParser.json());
-
-
 app.use("/customer", customerRouter);
 app.use("/worker", workerRouter);
 app.use("/", homeRouter);
