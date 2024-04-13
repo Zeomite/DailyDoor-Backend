@@ -5,7 +5,7 @@ const jwt = require("jsonwebtoken");
 const userModel = require("../models/user.js");
 SECRET_KEY= "DailyDoor"
 
-homeRouter.get('/', (req, res) => { 
+homeRouter.get('/', (req, res) => {
     res.send("Daily Door API");
 });
 
